@@ -1,5 +1,4 @@
 const modal = document.querySelector('.modal');
-//const hideIcon = document.querySelector('.modal #hideIcon');
 const hideButton = document.querySelector('.modal #hideButton');
 const showButton = document.querySelector('#showButton');
 
@@ -8,9 +7,9 @@ hideButton.addEventListener('click', hideModal);
 showButton.addEventListener('click', showModal);
 
 function hideModal() {
-    modal.id = 'hide';
+  modal.id = 'hide';
 }
 
 function showModal() {
-    modal.id = 'show';
+  modal.id = 'show';
 }
